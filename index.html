@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./style.css">
+</head> 
+
+<body onload="setQuestion()">
+    <div class="div-main">
+        <h1 id="htmlQuestion">Quiz Application</h1>
+
+        <div class="div-head">
+            <h2 id="html-Question"></h2>
+        </div>
+        
+      
+        <div class="div-body">
+            <ul>
+                <li onclick="checkAns(this)" class="htmlOption">Option 1</li>
+                <li onclick="checkAns(this)" class="htmlOption">Option 2</li>
+                <li onclick="checkAns(this)" class="htmlOption">Option 3</li>
+                <li onclick="checkAns(this)" class="htmlOption">Option 4</li>  
+            </ul>
+        </div>
+
+        <div class="div-bottom">
+            <span id="spancounter"></span>
+            <button class="hide" id="nextbtn" onclick="nextQuestion()"> Next Question</button>
+        </div>
+
+
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

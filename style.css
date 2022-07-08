@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(250, 252, 255);
+}
+.div-main{
+    /* border: 2px solid red ; */
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div-main h2, .div-main h1{
+    margin: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+.div-head h2{
+    margin: 5px;
+    padding: 8px;
+ 
+    cursor: pointer;
+}
+
+.div-body{
+    margin: 0 15px;
+    padding: 10px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul li{
+    transition: all 0.3s ease-in;
+    list-style: none;
+    background-color: lightgreen;
+    cursor: pointer;
+    margin: 5px 20px;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 20px;
+}
+ul li:hover{
+    background-color: rgb(79, 235, 79);
+}
+.div-bottom{
+    align-items: center;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-bottom button{
+    padding: 10px;
+    background-color: rgb(34, 181, 34);
+    color: white;
+    /* font-weight: bold; */
+    border: none;
+    border-radius:10px ;
+    cursor: pointer;
+    font-size: large;
+}
+.div-bottom span{
+    /* margin: 15px; */
+    cursor: pointer;
+}
+
+/*  button */
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.disable{
+    pointer-events: none;
+}
+.correct{
+    background-color: rgb(59, 118, 236);
+    color: white;
+}
+
+.wrong{
+    background-color: rgb(245, 71, 36);
+    color: white;
+
+}
